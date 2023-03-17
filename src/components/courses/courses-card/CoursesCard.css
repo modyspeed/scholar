@@ -1,0 +1,91 @@
+.coursesCard {
+  position: relative;
+  border-radius: var(--main-border-radius);
+  -webkit-border-radius: var(--main-border-radius);
+  -moz-border-radius: var(--main-border-radius);
+  -ms-border-radius: var(--main-border-radius);
+  -o-border-radius: var(--main-border-radius);
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+  overflow: hidden;
+}
+
+.coursesCard>img {
+  border-radius: var(--main-border-radius);
+}
+
+.coursesCard>.card-body>.card-title {
+  color: var(--main-color);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.coursesCard>.card-body>p {
+
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.coursesCard:hover {
+  color: var(--main-color);
+}
+
+.coursesCard::before {
+  position: absolute;
+  content: "WEBDESIGN";
+  border-radius: var(--main-border-radius);
+  -webkit-border-radius: var(--main-border-radius);
+  -moz-border-radius: var(--main-border-radius);
+  -ms-border-radius: var(--main-border-radius);
+  -o-border-radius: var(--main-border-radius);
+  background-color: var(--light-color);
+  padding: 8px 20px;
+  color: var(--main-color);
+  font-weight: 400;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+  top: 20px;
+  left: 20px;
+}
+.coursesCard>.round{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--main-color);
+  top: -57px;
+  right: -59px;
+  text-align: center;
+  line-height: 8;
+  padding-right: 51px;
+  color: var(--light-color);
+  font-weight: 900;
+  font-size: 25px;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+.coursesCard>.round >sup{
+  font-weight: 100;
+}
+.coursesCard:hover.coursesCard>.round{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}

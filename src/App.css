@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+:root{
+--main-color:#7a6ad8;
+--secondary-color:#f1f0fe;
+--bg-color:#ffffff;
+--bg-secondary-color:rgba(249, 235, 255, 0.15);
+--light-color:white;
+--main-transition:.3s;
+--main-border-radius:25px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+}
+ul{
+  list-style: none;
+}

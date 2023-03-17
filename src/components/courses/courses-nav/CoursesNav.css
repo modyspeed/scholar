@@ -1,0 +1,26 @@
+.coursesNav{
+  max-width: 500px;
+  margin: auto;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--main-border-radius);
+  -webkit-border-radius: var(--main-border-radius);
+  -moz-border-radius: var(--main-border-radius);
+  -ms-border-radius: var(--main-border-radius);
+  -o-border-radius: var(--main-border-radius);
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+  padding: 15px 20px;
+  line-height: 40px;
+}
+.coursesNav>li:hover{
+  cursor: pointer;
+  color: var(--main-color);
+  font-weight: 400;
+}
