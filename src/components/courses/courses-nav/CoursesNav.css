@@ -16,7 +16,7 @@
   -moz-transition: var(--main-transition);
   -ms-transition: var(--main-transition);
   -o-transition: var(--main-transition);
-  padding: 15px 20px;
+  padding: 10px 20px;
   line-height: 40px;
 }
 .coursesNav>li:hover{

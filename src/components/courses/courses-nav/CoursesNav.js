@@ -1,11 +1,9 @@
 import "./CoursesNav.css";
-const CoursesNav = () => {
+const CoursesNav = (props) => {
   return (
     <ul className="coursesNav">
       <li>Show All</li>
-      <li>Webdesign</li>
-      <li>Development</li>
-      <li>Wordpress</li>
+      {props.courses.map(cource=><li key={cource.id}>{cource.name}</li>)}
     </ul>
   );
 };
