@@ -1,0 +1,15 @@
+.coursesNumbers{
+background-image: url("../../../assets/images/contact-dec-01.png");
+/* background-size: cover; */
+background-repeat: no-repeat;
+background-color: var(--main-color);
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 30vh;
+width: 100%;
+margin: auto;
+border-bottom-right-radius: 50px;
+border-top-right-radius: 50px;
+
+}
