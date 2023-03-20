@@ -1,4 +1,4 @@
-import { Col, Container } from "react-bootstrap";
+import {  Container } from "react-bootstrap";
 import "./CoursesNumbers.css";
 
 const CoursesNumbers = () => {

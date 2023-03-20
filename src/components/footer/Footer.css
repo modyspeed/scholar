@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  background-image: url("../../assets/images/contact-dec-02.png");
+  background-position-y: 60px;
+  background-position-x: 60px;
+  background-repeat: no-repeat;
+  background-color: var(--main-color);
+  color: var(--light-color);
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: calc(var(--main-border-radius)*8);
+  border-top-left-radius: calc(var(--main-border-radius)*8);
+  overflow: hidden;
+margin-bottom: 0;
+
+}
+
+.footer>span {
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.footer>span:hover {
+  cursor: pointer;
+  opacity: .7;
+}
