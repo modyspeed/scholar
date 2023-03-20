@@ -1,15 +1,67 @@
-.coursesNumbers{
-background-image: url("../../../assets/images/contact-dec-01.png");
-/* background-size: cover; */
-background-repeat: no-repeat;
-background-color: var(--main-color);
+.coursesNumbers {
+height: 25vh;
+width: 80%;
+  background-image: url("../../../assets/images/contact-dec-01.png");
+  background-color: var(--main-color);
+  background-repeat: no-repeat;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
-height: 30vh;
-width: 100%;
-margin: auto;
-border-bottom-right-radius: 50px;
-border-top-right-radius: 50px;
+margin: 3rem 0;
+color: var(--light-color);
+position: relative;
+}
+.coursesNumbers::after{
+  position: absolute;
+  content: "";
+  background-color: var(--main-color);
+  top: 0;
+  right: -109px;
+  width: 218.25px;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: -1;
+}
+.coursesNumbers>div{
+  text-align: center;
+}
+.coursesNumbers>div h1{
+font-weight: 900;
+font-size: 40px;
+}
+.coursesNumbers>div p{
+  font-size: 13px;
+}
+@media (max-width:725px) {
+  .coursesNumbers{
+    width:800px;
+    height: 800px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left: -400px;
+    background-position-x: 90%;
+    background-position-y: 0%;
+} 
+.coursesNumbers>.container{
+  flex-direction: column;
+  gap: 40px;
 
+}
+.coursesNumbers::after{
+  display: none;
+}
+.coursesNumbers>div{
+  transform: translate(-50%);
+  -webkit-transform: translateX(30%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
 }

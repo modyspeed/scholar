@@ -140,8 +140,9 @@ const Courses = () => {
       </Container>
     
       <CoursesNumbers />
-  
+    
     </section>
+
   );
 };
 
