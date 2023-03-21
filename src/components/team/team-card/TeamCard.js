@@ -8,7 +8,7 @@ const TeamCard = (props) => {
   return (
     <div className="teamCard my-3">
       <img src={props.img} alt="img" />
-      <Title title={props.title} info={props.info} />
+      <Title title={props.title} info={props.info}  />
       <ul className="team-card-social d-flex gap-1 align-items-center">
          <li><FaFacebook/></li>
          <li><FaTwitter/></li>

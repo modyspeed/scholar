@@ -1,0 +1,17 @@
+.carousel {
+
+  cursor: grab;
+  overflow: hidden;
+  /* min-width: 600px; */
+
+}
+
+.inner {
+  gap: 10px;
+  display: flex;
+}
+
+.item {
+  min-width: 100%;
+  min-height: 100%;
+}
