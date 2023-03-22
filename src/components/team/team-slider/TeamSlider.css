@@ -1,17 +1,54 @@
 .carousel {
-
   cursor: grab;
+  /* position: relative; */
   overflow: hidden;
-  /* min-width: 600px; */
-
 }
 
 .inner {
-  gap: 10px;
   display: flex;
+  gap: 10px;
 }
 
 .item {
   min-width: 100%;
-  min-height: 100%;
+}
+.bt{
+  position: absolute;
+  top:50%;
+  right:0%;
+  transform: translate(50%);
+  -webkit-transform: translate(50%,-50%);
+  -moz-transform: translate(50%);
+  -ms-transform: translate(50%);
+  -o-transform: translate(50%);
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+  font-size: 30px;
+}
+
+
+.bt:hover {
+  cursor: pointer;
+}
+
+.team-slider-info-btn {
+  width: 60px;
+  height: 60px;
+  background-color: var(--light-color);
+  box-shadow: 0 0 10px 0px;
+  border: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+
 }

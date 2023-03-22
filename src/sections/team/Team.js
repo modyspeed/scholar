@@ -33,7 +33,7 @@ const Team = () => {
             <TeamSlider />
           </Container>
         </Col>
-        <Col>bgkhhlj</Col>
+        <Col>jhklhjlk</Col>
       </Row>
     </>
   );
