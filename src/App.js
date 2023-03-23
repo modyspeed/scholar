@@ -9,9 +9,9 @@ import Team from './sections/team/Team';
 function App() {
   return (
     <>
-    {/* <Courses/> */}
+    <Courses/>
     <Team/>
-     {/* <Footer/> */}
+     <Footer/>
     </>
   );
 }

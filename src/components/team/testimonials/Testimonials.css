@@ -1,0 +1,20 @@
+.testimonials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.testimonials-content{
+  width: 80%;
+}
+.testimonials-content>h6{
+  color: var(--main-color);
+}
+.testimonials-content>h1{
+  font-weight: 900;
+  margin: 20px 0;
+}
+.testimonials-content>p{
+  font-size: 13px;
+}
