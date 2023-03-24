@@ -1,33 +1,38 @@
 import "./EventCard.css";
-import event1 from "../../assets/images/event-01.jpg";
+
 import Buttons from "../utility/buttons/Buttons";
-const EventCard = () => {
+import { FaAngleRight } from "react-icons/fa";
+const EventCard = (props) => {
   return (
     <div className="event-card flex-lg-row h-lg-25">
-      <img src={event1} alt="event-img" />
-      <div className="event-title my-4">
-        <Buttons content="Webdesign" />
-        <h4>UI Best Practices</h4>
-      <hr/>
-      </div>
-      <div className="event-info d-flex justify-content-between align-items-center">
+      <img src={props.image} alt="event-img" />
+      <div className="event-info ">
+        <div className="event-info-item">
+          <Buttons content={props.type} />
+          <h4 className="mt-2">{props.title}</h4>
+        </div>
         <div className="event-info-item">
           <p>
             DAta: <br />
-            <span> 12 Mar 2036</span>
+            <span> {props.date}</span>
           </p>
         </div>
         <div className="event-info-item">
           <p>
-          Duration: <br />
-            <span> 48 Hours</span>
+            Duration: <br />
+            <span> {props.duration}</span>
           </p>
         </div>
+
         <div className="event-info-item">
           <p>
-          Price: <br />
-            <span> $440</span>
+            Price: <br />
+            <span> {props.price}</span>
           </p>
+        </div>
+
+        <div className="link">
+          <FaAngleRight />
         </div>
       </div>
     </div>
