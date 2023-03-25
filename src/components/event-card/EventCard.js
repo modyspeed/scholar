@@ -39,4 +39,3 @@ const EventCard = (props) => {
 };
 
 export default EventCard;
-//make slider with framer motion?

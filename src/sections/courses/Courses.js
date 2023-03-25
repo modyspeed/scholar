@@ -138,11 +138,9 @@ const Courses = () => {
           {data(name)}
         </Row>
       </Container>
-    
-      <CoursesNumbers />
-    
-    </section>
 
+      <CoursesNumbers />
+    </section>
   );
 };
 

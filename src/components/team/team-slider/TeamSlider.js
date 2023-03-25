@@ -34,7 +34,7 @@ const TeamSlider = () => {
       setIndex(index + 1);
     }
   };
-console.log(index)
+
   return (
     <div className="position-relative">
       <motion.div  className="carousel ">
