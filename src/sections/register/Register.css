@@ -1,0 +1,173 @@
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  height: 80vh;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: 0 50px;
+}
+
+.contact-us>h6 {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.contact-us>h1 {
+  font-weight: 600;
+  margin: 10px 0 50px;
+}
+
+.contact-us>p {
+  font-size: 15px;
+}
+
+.offer {
+  background-color: var(--light-color);
+  border-radius: var(--main-border-radius);
+  -webkit-border-radius: var(--main-border-radius);
+  -moz-border-radius: var(--main-border-radius);
+  -ms-border-radius: var(--main-border-radius);
+  -o-border-radius: var(--main-border-radius);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px 0px;
+  margin: 50px 50px 50px 0;
+  overflow: hidden;
+}
+
+.offer-percent {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  background-color: var(--main-color);
+  color: var(--light-color);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transform: translate(-60px, -50px);
+  -webkit-transform: translate(-60px, -50px);
+  -moz-transform: translate(-60px, -50px);
+  -ms-transform: translate(-60px, -50px);
+  -o-transform: translate(-60px, -50px);
+}
+
+.offer-percent>span {
+  font-size: 20px;
+  color: var(--light-color) !important;
+
+}
+
+.offer h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.offer span {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.midle {
+  flex: 1;
+}
+
+.right {
+  background-color: var(--main-color);
+  color: var(--light-color);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+}
+
+.right:hover {
+  cursor: pointer;
+}
+
+.form{
+  background-image: url("../../assets/images/contact-dec-02.png");
+  background-color: var(--main-color);
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+  border-radius:var(--main-border-radius) ;
+  -webkit-border-radius:var(--main-border-radius) ;
+  -moz-border-radius:var(--main-border-radius) ;
+  -ms-border-radius:var(--main-border-radius) ;
+  -o-border-radius:var(--main-border-radius) ;
+  transform: translate(-50px,-10px);
+  -webkit-transform: translate(-50px,100px);
+  -moz-transform: translate(-50px,-10px);
+  -ms-transform: translate(-50px,-10px);
+  -o-transform: translate(-50px,-10px);
+}
+.form>::placeholder{
+  color: var(--light-color);
+}
+.form>input ,.form>textarea {
+  background-color: var(--bg-secondary-color);
+  color: var(--light-color);
+  border: none;
+  width: 100%;
+  margin: 10px 0;
+  padding:  10px;
+  outline: none;
+  border-radius: var(--main-border-radius);
+  -webkit-border-radius: var(--main-border-radius);
+  -moz-border-radius: var(--main-border-radius);
+  -ms-border-radius: var(--main-border-radius);
+  -o-border-radius: var(--main-border-radius);
+}
+.form>textarea{
+  height: 20vh;
+}
+@media (max-width:725px) {
+  .contact-us{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .contact-us >h1{
+    font-size: 18px ;
+  }
+  .offer{
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .offer-percent{
+    transform: translate(0,-30px);
+    -webkit-transform: translate(0,-30px);
+    -moz-transform: translate(0,-30px);
+    -ms-transform: translate(0,-30px);
+    -o-transform: translate(0,-30px);
+    padding: 0;
+}
+.right{
+  transform: translate(10px,1px);
+  -webkit-transform: translate(10px,1px);
+  -moz-transform: translate(10px,1px);
+  -ms-transform: translate(10px,1px);
+  -o-transform: translate(10px,1px);
+  margin-bottom: 10px;
+}
+}

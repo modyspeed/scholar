@@ -5,6 +5,7 @@
   -moz-transform: translateX(50px);
   -ms-transform: translateX(50px);
   -o-transform: translateX(50px);
+
 }
 .teamTestimonials{
   background-color: var(--secondary-color);
@@ -12,6 +13,7 @@
   position: relative;
   z-index: -1;
   height: 60vh;
+
 }
 .teamTestimonials::before{
   content: "";

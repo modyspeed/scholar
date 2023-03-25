@@ -13,6 +13,7 @@
   -ms-transition: var(--main-transition);
   -o-transition: var(--main-transition);
   overflow: hidden;
+  margin-top: 30px;
 }
 
 .coursesCard>img {

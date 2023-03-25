@@ -16,8 +16,8 @@ const Team = () => {
     { img: img4, title: "Digital Animator", info: "Stella Blair" },
   ];
   return (
-    <div className="my-5">
-      <div className="container my-5">
+    <div className="my-5 ">
+      <div className="container my-5 ">
         <Row xs={1} sm={1} md={2} lg={4}>
           {team.map((e, i) => {
             return (
@@ -28,12 +28,12 @@ const Team = () => {
           })}
         </Row>
       </div>
-      <Row xs={1} sm={1} md={1} lg={2} className=" teamSliderTestimonials d-flex justify-content-center align-items-center  gap-3">
+      <Row xs={1} sm={1} md={1} lg={2} className=" mw-100 teamSliderTestimonials d-flex justify-content-center align-items-center  gap-3">
         <Col className="teamSlider ">
           <TeamSlider />
         </Col>
 
-        <Col className="teamTestimonials d-flex justify-content-center align-items-center">
+        <Col className=" teamTestimonials d-flex justify-content-center align-items-center">
           <Testimonials />
         </Col>
       </Row>

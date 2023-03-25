@@ -23,10 +23,9 @@ const EventCard = (props) => {
             <span> {props.duration}</span>
           </p>
         </div>
-
         <div className="event-info-item">
           <p>
-            Price: <br />
+          Price: <br />
             <span> {props.price}</span>
           </p>
         </div>
@@ -40,3 +39,4 @@ const EventCard = (props) => {
 };
 
 export default EventCard;
+//make slider with framer motion?

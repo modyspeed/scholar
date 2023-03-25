@@ -8,7 +8,7 @@ import img3 from "../../assets/images/event-03.jpg";
 const Events = () => {
   const event = [
     {
-      image: { img1 },
+      image:  img1 ,
       type: "WEB DESIGN",
       title: "UI Best Practices",
       date: "16 Feb 2036",
@@ -16,7 +16,7 @@ const Events = () => {
       price: "$120",
     },
     {
-      image: { img2 },
+      image:  img2 ,
       type: "FRONT END",
       title: "New Design Trend",
       date: "30 Feb 2036",
@@ -24,7 +24,7 @@ const Events = () => {
       price: "$320",
     },
     {
-      image: { img3 },
+      image:  img3 ,
       type: "FULL STACK",
       title: "Web Programming",
       date: "12 Mar 2036",
@@ -51,6 +51,7 @@ const Events = () => {
           ))}
         </Row>
       </Container>
+    
     </div>
   );
 };
