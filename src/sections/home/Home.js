@@ -1,8 +1,13 @@
+import Header from "../../components/home/Header"
+import HomeSlider from "../../components/home/HomeSlider"
 import "./Home.css"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="home">
+      {/* <Header/> */}
+      <HomeSlider/>
+    </div>
   )
 }
 
