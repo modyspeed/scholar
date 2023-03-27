@@ -1,0 +1,24 @@
+.navBar {
+  background-color: var(--main-color);
+  border-bottom-left-radius: var(--main-border-radius);
+  border-bottom-right-radius: var(--main-border-radius);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+.navBar >.container a{
+  color: white ;
+}
+.logo{
+  padding-right: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  border-right: 1px solid var(--bg-secondary-color);
+}
+.search{
+  border-radius: var(--main-border-radius)  !important;
+  -webkit-border-radius: var(--main-border-radius)  !important;
+  -moz-border-radius: var(--main-border-radius)  !important;
+  -ms-border-radius: var(--main-border-radius)  !important;
+  -o-border-radius: var(--main-border-radius)  !important;
+}

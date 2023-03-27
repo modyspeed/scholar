@@ -3,7 +3,7 @@ import img1 from "../../assets/images/banner-item-01.jpg";
 import img2 from "../../assets/images/banner-item-02.jpg";
 import img3 from "../../assets/images/banner-item-03.jpg";
 import SliderCard from "./SliderCard";
-import { animate, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 const HomeSlider = () => {
@@ -48,7 +48,7 @@ const HomeSlider = () => {
 
   return (
     <motion.div className="homeSlider">
-      <motion.div  className="sliderContainer">
+      <motion.div drag="x" dragConstraints={{left:0,right:0,}} className="sliderContainer">
         <SliderCard
           img={sliderData[index].img}
           title={sliderData[index].title}
